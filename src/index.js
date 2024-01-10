@@ -1,4 +1,5 @@
 import { EventTarget } from 'event-target-shim';
+const fetch = require('electron-fetch').default;
 
 class HugeUploader {
     constructor(params) {
